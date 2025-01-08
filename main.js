@@ -32,7 +32,7 @@ bot.action('contacts', (ctx) => {
 })
 
 // Запуск бота, привязка к порту (для платформ, как Render)
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 10000
 bot.launch({
   webhook: {
     domain: 'https://telegrambot-xhbu.onrender.com',  // Замените на ваш URL на Render
